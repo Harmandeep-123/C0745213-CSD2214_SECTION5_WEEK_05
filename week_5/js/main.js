@@ -6,5 +6,13 @@ function myFunction(a, b) {
 function array() {
     var pens;
     pens = ["red", "blue", "green", "pink", "black"];
-    console.log(pens);
+    markers = pens;
+    console.log(markers);
+    var i;
+    for (i = 0; i < markers.length; i++) {
+        alert(pens[i]);
+
+    }
+    alert("length of array is :" + markers.length);
+
 }
